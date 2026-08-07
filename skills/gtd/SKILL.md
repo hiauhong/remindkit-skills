@@ -133,6 +133,8 @@ allowed-tools:
 
 ## 用户约定
 
+- **数据使用约定（完整版）定义于 remindkit-scope 仓库 `docs/data-conventions.md`**：字段语义、身份三层适配、结构优化原则；执行前按需读取。核心约定摘要见下
+- **旗标默认 = 「当前关注」**（焦点信号，非日程）；若用户另有用法，以用户说明为准
 - 用户的列表结构以 `list --format json` 的 note/role 为准（列表用途以 note 备注为准）
 - 角色定义（目标/收件箱/普通）由 remindkit-scope 前端管理，agent 会话中以询问或 `list` 输出为准
 - 任何写操作前先确认（用户裁决），不擅自修改用户数据
