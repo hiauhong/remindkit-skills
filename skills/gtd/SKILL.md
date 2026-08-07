@@ -134,7 +134,7 @@ allowed-tools:
 ## 用户约定
 
 - 用户的列表结构以 `list --format json` 的 note/role 为准（列表用途以 note 备注为准）
-- 角色定义（目标/收件箱/普通）由 remindscope 前端管理，agent 会话中以询问或 `list` 输出为准
+- 角色定义（目标/收件箱/普通）由 remindkit-scope 前端管理，agent 会话中以询问或 `list` 输出为准
 - 任何写操作前先确认（用户裁决），不擅自修改用户数据
 
 ## Token 效率

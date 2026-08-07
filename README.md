@@ -12,7 +12,7 @@ remindkit（数据管道 · 无观点）→ remindkit-skills（方法论协议�
 |---|---|---|
 | remindkit | 管道：数据原语 + 写操作（无观点） | agent / skill / 前端 |
 | **remindkit-skills**（本仓库） | 方法论：检测标准 + 流程编排 | agent（装进 agent 的 skills 目录） |
-| remindscope | 视角：呈现决策面 + 两键审批 | 用户 |
+| remindkit-scope | 视角：呈现决策面 + 两键审批 | 用户 |
 
 依赖单向：前端 → 方法论 → 管道。
 
@@ -44,7 +44,7 @@ ls -l ~/.agents/skills/gtd/SKILL.md
 ## 与相关项目的关系
 
 - **remindkit**（数据管道）—— 所有 skill 只通过 `remindkit` 命令读写 Apple Reminders
-- **remindscope**（前端视角）—— 与这些 skill 共享同一套方法论概念（agent 端 / 人端投影），随产品同步演进但独立发布
+- **remindkit-scope**（前端视角）—— 与这些 skill 共享同一套方法论概念（agent 端 / 人端投影），随产品同步演进但独立发布
 
 ## 免责声明
 
